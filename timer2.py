@@ -100,8 +100,8 @@ class Form(QtWidgets.QDialog):
     def forceShutdownNow(self):
         print("call forceShutdownNow")
         self.__force_close = True
-        #subprocess.call(["shutdown.exe","/f", "/s","/t", "0"])
-        subprocess.call(["shutdown.exe","/r","/f","/t", "0"])
+        subprocess.call(["shutdown.exe","/f", "/s","/t", "0"])
+        #subprocess.call(["shutdown.exe","/r","/f","/t", "0"])
         
         self.close()
     def __innerSetDelayTimeWithIndex(self,index):

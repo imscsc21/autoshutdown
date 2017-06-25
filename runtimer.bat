@@ -1,0 +1,1 @@
+﻿start python C:\Users\user\Desktop\finaltimer.py
