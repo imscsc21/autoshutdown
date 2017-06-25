@@ -7,5 +7,5 @@ class ValueDelegate():
         
     def setTrayIconClassObj(self,cls):
         self.__tray_cls = cls
-    def getTrayIconClassObj():
+    def getTrayIconClassObj(self):
         return self.__tray_cls

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
+    <width>647</width>
     <height>272</height>
    </rect>
   </property>
@@ -18,7 +18,7 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>621</width>
+     <width>631</width>
      <height>80</height>
     </rect>
    </property>
@@ -34,7 +34,7 @@
        </font>
       </property>
       <property name="text">
-       <string>컴퓨터를 하위에 표시된 시간이 지나면 컴퓨터가 자동으로 종료됩니다.</string>
+       <string>오른쪽 하단중간에 표시된 시간이 지나면 컴퓨터가 자동으로 종료됩니다.</string>
       </property>
       <property name="textFormat">
        <enum>Qt::PlainText</enum>
@@ -204,11 +204,6 @@
     </item>
    </layout>
   </widget>
-  <zorder>verticalLayoutWidget</zorder>
-  <zorder>verticalLayoutWidget_2</zorder>
-  <zorder>comboBox</zorder>
-  <zorder>progressBar</zorder>
-  <zorder>horizontalLayoutWidget</zorder>
  </widget>
  <resources/>
  <connections>
